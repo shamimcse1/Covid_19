@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg"
+    tools:context="com.codercamp.covid_19.Profile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="405dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@drawable/gradientbackground"
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="45dp"
+                    android:src="@drawable/profile"
+                    app:civ_border_color="@color/infoBac"
+                    app:civ_border_width="2dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:text="Md.Shamim Hossain"
+                    android:textColor="#fff"
+                    android:textSize="21sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="400dp"
+                    android:layout_height="120dp"
+                    android:padding="30dp"
+                    app:cardCornerRadius="15dp"
+                    app:cardBackgroundColor="@color/card"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="275dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:padding="10dp"
+                        android:background="@color/card"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textColor="@android:color/black"
+                            android:textSize="20sp"
+                            android:text="Android Apps Developer"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="45dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="25dp">
+
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:src="@drawable/ic_email_black_24dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:paddingLeft="20dp"
+                    android:textColor="@color/textprofile"
+                    android:text="mdshamimh529@gmail.com"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:orientation="horizontal"
+                android:paddingLeft="25dp">
+
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:src="@drawable/ic_phone_black_24dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:paddingLeft="20dp"
+                    android:text="+8801744165013"
+                    android:textColor="@color/textprofile"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:orientation="horizontal"
+                android:paddingLeft="25dp">
+
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:src="@drawable/ic_language_black_24dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:paddingLeft="20dp"
+                    android:text="www.codercamp.com"
+                    android:textColor="@color/textprofile"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="35dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/buttonstyle"
+            android:onClick="follow"
+            android:text="Follow Me"
+            android:textColor="#fff" />
+
+    </LinearLayout>
+
+
+</ScrollView>

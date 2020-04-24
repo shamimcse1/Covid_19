@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.codercamp.covid_19.Info">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/bacc">
+
+        </ImageView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardUseCompatPadding="true"
+            app:cardBackgroundColor="@color/cardbg"
+            app:cardCornerRadius="3dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="20sp"
+                android:padding="5dp"
+                android:textColor="@android:color/white"
+                android:textIsSelectable="true"
+                android:textStyle="bold"
+                android:text="@string/info">
+
+            </TextView>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardUseCompatPadding="true"
+            app:cardBackgroundColor="@color/cardbg"
+            app:cardCornerRadius="3dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="18sp"
+                android:padding="5dp"
+                android:textColor="@android:color/white"
+                android:textIsSelectable="true"
+                android:textStyle="bold"
+                android:text=">>হাত না ধুয়ে নাক, মুখ, চোখে হাত দিবেন না।">
+
+            </TextView>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardUseCompatPadding="true"
+            app:cardBackgroundColor="@color/cardbg"
+            app:cardCornerRadius="3dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"
+                android:padding="5dp"
+                android:textIsSelectable="true"
+                android:textStyle="bold"
+                android:text=">>হ্যান্ডশেক বন্ধ করুন। দরকার পড়লে বো (মাথা নত) বা ফিস্ট বাম্প করুন।">
+
+            </TextView>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardUseCompatPadding="true"
+            app:cardBackgroundColor="@color/cardbg"
+            app:cardCornerRadius="3dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="18sp"
+                android:padding="5dp"
+                android:textColor="@android:color/white"
+                android:textIsSelectable="true"
+                android:textStyle="bold"
+                android:text=">>লাইট বা ফ্যানের সুইচ, লিফটের বোতাম ইত্যাদির ক্ষেত্রে মুষ্টিবদ্ধ আঙুলের গিঁট/knuckle ব্যবহার করুন।">
+
+            </TextView>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardUseCompatPadding="true"
+            app:cardBackgroundColor="@color/cardbg"
+            app:cardCornerRadius="3dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"
+                android:padding="5dp"
+                android:textIsSelectable="true"
+                android:textStyle="bold"
+                android:text=">>অপ্রয়োজনে বাইরে যাবেন না, জনসমাগম এড়িয়ে চলুন।">
+
+            </TextView>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardUseCompatPadding="true"
+            app:cardBackgroundColor="@color/cardbg"
+            app:cardCornerRadius="3dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="18sp"
+                android:padding="5dp"
+                android:textColor="@android:color/white"
+                android:textIsSelectable="true"
+                android:textStyle="bold"
+                android:text=">>হাঁচি বা কাশি এলে টিস্যু পিপার ব্যবহার করন।">
+
+            </TextView>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardUseCompatPadding="true"
+            app:cardBackgroundColor="@color/cardbg"
+            app:cardCornerRadius="3dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"
+                android:padding="5dp"
+                android:textIsSelectable="true"
+                android:textStyle="bold"
+                android:text=">>ভিটামিন সি যেমন, লেবু খান বেশি করে।">
+
+            </TextView>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardUseCompatPadding="true"
+            app:cardBackgroundColor="@color/cardbg"
+            app:cardCornerRadius="3dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="18sp"
+                android:padding="5dp"
+                android:textColor="@android:color/white"
+                android:textIsSelectable="true"
+                android:textStyle="bold"
+                android:text=">>মুঠো বা কোমর দিয়ে (ঠেলা দিয়ে) দরোজা খুলুন, সম্ভব হলে হাতল ধরবেন না, বিশেষ করে পাবলিক/ব্যবসায়িক বিল্ডিং হলে।">
+
+            </TextView>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardUseCompatPadding="true"
+            app:cardBackgroundColor="@color/cardbg"
+            app:cardCornerRadius="3dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"
+                android:padding="5dp"
+                android:textIsSelectable="true"
+                android:textStyle="bold"
+                android:text=">>সাবান দিয়ে ঘন ঘন হাত ধুবেন। বাহির হতে এলে বা হাত অপরিস্কার হলে ভালভাবে ১০-২০ সেকেন্ড ধরে সাবান দিয়ে হাত ধুবেন।">
+
+            </TextView>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardUseCompatPadding="true"
+            app:cardBackgroundColor="@color/cardbg"
+            app:cardCornerRadius="3dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="18sp"
+                android:padding="5dp"
+                android:textColor="@android:color/white"
+                android:textIsSelectable="true"
+                android:textStyle="bold"
+                android:text=">>আপনার বাসায় প্রবেশমুখে স্যানিটাইজারের বোতল রাখুন। বাহির হতে এলে প্রথমেই স্যানিটাইজার ব্যবহার করুন।\n গাড়িতে, এমন কী নিজের পকেটেও ছোট আকারের হ্যান্ড স্যানিটাইজার রাখতে পারেন, যেন প্রয়োজন অনুযায়ী ব্যবহার করতে পারেন।">
+
+            </TextView>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardUseCompatPadding="true"
+            app:cardBackgroundColor="@color/cardbg"
+            app:cardCornerRadius="3dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"
+                android:padding="5dp"
+                android:textIsSelectable="true"
+                android:textStyle="bold"
+                android:text=">>সাবান দিয়ে ঘন ঘন হাত ধুবেন। বাহির হতে এলে বা হাত অপরিস্কার হলে ভালভাবে ১০-২০ সেকেন্ড ধরে সাবান দিয়ে হাত ধুবেন।">
+
+            </TextView>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardUseCompatPadding="true"
+            app:cardBackgroundColor="@color/cardbg"
+            app:cardCornerRadius="3dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="18sp"
+                android:padding="5dp"
+                android:textColor="@android:color/white"
+                android:textIsSelectable="true"
+                android:textStyle="bold"
+                android:text=">>কিছু ল্যাটেক্স হ্যান্ড গ্লোভস সংগ্রহে রাখুন, বিশেষ করে করোনা ছড়িয়ে পড়লে আক্রান্ত এরিয়া বা শপিং মলে ব্যবহারের জন্য।">
+
+            </TextView>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardUseCompatPadding="true"
+            app:cardBackgroundColor="@color/cardbg"
+            app:cardCornerRadius="3dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"
+                android:padding="5dp"
+                android:textIsSelectable="true"
+                android:textStyle="bold"
+                android:text=">>কিছু সার্জিক্যাল মাস্ক সংগ্রহে রাখুন। মাস্ক আপনাকে করোনা হতে সুরক্ষা দিবে না, তবে নাক বা মুখে হাত দেয়া হতে বিরত রাখবে।">
+
+            </TextView>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardUseCompatPadding="true"
+            app:cardBackgroundColor="@color/cardbg"
+            app:cardCornerRadius="3dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="18sp"
+                android:padding="5dp"
+                android:textColor="@android:color/white"
+                android:textIsSelectable="true"
+                android:textStyle="bold"
+                android:text=">>কিছু হ্যান্ড স্যানিটাইজার সংগ্রহে রাখুন। খেয়াল রাখবেন, স্যানিটাইজারে যেন ৬০% এর অধিক অ্যালকোহল থাকে। যেমন, হেক্সিসল। স্যানিটাইজার না পেলে অসুবিধা নেই। সাবান-পানি খুব ভাল কাজ করে। তবে ২০ সেকেন্ড ধরে হাত ধুতে হবে।">
+
+            </TextView>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardUseCompatPadding="true"
+            app:cardBackgroundColor="@color/cardbg"
+            app:cardCornerRadius="3dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"
+                android:padding="5dp"
+                android:textIsSelectable="true"
+                android:textStyle="bold"
+                android:text=">>কোথাও পড়েছি, জিঙ্ক লজেঞ্জ গলায় (খাদ্যনালী এবং শ্বাসনালী) করোনাসহ আরো অনেক ভাইরাসের বংশবৃদ্ধি প্রতিহত করে। কিন্তু আমাদের দেশে জিঙ্ক লজেঞ্জ পাওয়া যায় কিনা আমার জানা নেই।">
+            </TextView>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

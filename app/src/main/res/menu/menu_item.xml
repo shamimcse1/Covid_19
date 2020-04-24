@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="example.javatpoint.com.optionmenu.MainActivity">
+    <item
+        android:id="@+id/covid"
+        android:title="BD-Info"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/country"
+        android:title="All World"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/profile"
+        android:title="Contact with me"/>
+    <item
+        android:id="@+id/item3"
+        android:title="Live Data"
+        app:showAsAction="never"/>
+</menu>
